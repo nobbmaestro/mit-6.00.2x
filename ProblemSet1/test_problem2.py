@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet1 import brute_force_cow_transport as func
 
-class TestProblem1(unittest.TestCase):
+class TestProblem2(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {
