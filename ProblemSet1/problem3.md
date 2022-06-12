@@ -1,4 +1,4 @@
-# Problem 3: Comparing the Cow Transport Algorithms
+# Problem Set 1, Problem 3: Comparing the Cow Transport Algorithms
 
 POLL: ALGORITHM INTUITION
 (ungraded) Before doing the task in this part, answer the following question to see your intuition for how the greedy and brute force algorithm run. In terms of time, which algorithm do you expect will run faster?

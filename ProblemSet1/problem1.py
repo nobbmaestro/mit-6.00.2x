@@ -1,4 +1,4 @@
-# Problem 1: Greedy Cow Transport
+# Problem Set 1, Problem 1: Greedy Cow Transport
 # 
 # One way of transporting cows is to always pick the heaviest cow that will fit onto the spaceship first. This is an example of a 
 # greedy algorithm. So if there are only 2 tons of free space on your spaceship, with one cow that's 3 tons and another that's 1 

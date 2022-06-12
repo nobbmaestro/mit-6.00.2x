@@ -1,4 +1,4 @@
-# Problem 2: Brute Force Cow Transport
+# Problem Set 1, Problem 2: Brute Force Cow Transport
 # 
 # Another way to transport the cows is to look at every possible combination of trips and pick the best one. This is an example 
 # of a brute force algorithm.
