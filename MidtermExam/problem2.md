@@ -18,7 +18,7 @@ What is the exact probability of rolling at least two 6's when rolling a die thr
 5. None of the above
 
 ### Answer:
-> 3.
+> 3. 2/27
 
 ## Problem 2-3
 A greedy optimization algorithm:
@@ -28,7 +28,7 @@ A greedy optimization algorithm:
 4. never returns the optimal solutions to the problem.
 
 ### Answer:
-> 1.
+> 1. is typically efficient in time.
 
 ## Problem 2-4:
 Suppose you have a weighted directed graph and want to find a path between nodes A and B with the smallest total weight. Select the most accurate statement.
@@ -38,7 +38,7 @@ Suppose you have a weighted directed graph and want to find a path between nodes
 4. If all edges have weight 2, breadth-first search guarantees that the first path found to be is the shortest path.
 
 ### Answer:
-> 4.
+> 4. If all edges have weight 2, breadth-first search guarantees that the first path found to be is the shortest path.
 
 ## Problem 2-5:
 Which of the following functions are deterministic?
@@ -79,7 +79,7 @@ def G():
 4. Neither F nor G
 
 ### Answer:
-> 3.
+> 3. Both F and G
 
 ## Problem 2-6
 Consider a list of positive (there is at least one positive) and negative numbers. You are asked to find the maximum sum of a contiguous subsequence. For example,
@@ -95,4 +95,4 @@ One algorithm goes through all possible subsequences and compares the sums of ea
 6. None of the above
 
 ### Answer:
-> 4.
+> 4. O(n^2)
