@@ -1,4 +1,4 @@
-# Problem 3: StandardRobot Class
+# Problem Set 2, Problem 3: StandardRobot Class
 # 
 # Each robot must also have some code that tells it how to move about a room, which will go in a method called 
 # updatePositionAndClean.

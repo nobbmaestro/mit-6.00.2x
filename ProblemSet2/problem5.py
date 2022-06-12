@@ -1,4 +1,4 @@
-# Problem 5: RandomWalkRobot Class
+# Problem Set 2, Problem 5: RandomWalkRobot Class
 # 
 # iRobot is testing out a new robot design. The proposed new robots differ in that they change direction randomly after 
 # every time step, rather than just when they run into walls. You have been asked to design a simulation to determine what 

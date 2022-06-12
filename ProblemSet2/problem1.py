@@ -1,3 +1,5 @@
+# Problem Set 2, Problem 1: RectanggularRoom
+#
 # You will need to design two classes to keep track of which parts of the room have been cleaned as well as the position and 
 # direction of each robot.
 #
@@ -7,18 +9,18 @@
 #     a room.
 #
 # Read ps2.py carefully before starting, so that you understand the provided code and its capabilities.
-#
-# Problem 1
-# In this problem you will implement the RectangularRoom class. For this class, decide what fields you will use and decide how 
-# the following operations are to be performed:
-#   - Initializing the object
-#   - Marking an appropriate tile as cleaned when a robot moves to a given position (casting floats to ints - and/or the function 
-#     math.floor - may be useful to you here)
-#   - Determining if a given tile has been cleaned
-#   - Determining how many tiles there are in the room
-#   - Determining how many cleaned tiles there are in the room
-#   - Getting a random position in the room
-#   - Determining if a given position is in the room
+# 
+# The problem:
+#   In this problem you will implement the RectangularRoom class. For this class, decide what fields you will use and decide how 
+#   the following operations are to be performed:
+#       - Initializing the object
+#       - Marking an appropriate tile as cleaned when a robot moves to a given position (casting floats to ints - and/or the function 
+#         math.floor - may be useful to you here)
+#       - Determining if a given tile has been cleaned
+#       - Determining how many tiles there are in the room
+#       - Determining how many cleaned tiles there are in the room
+#       - Getting a random position in the room
+#       - Determining if a given position is in the room
 #
 # Complete the RectangularRoom class by implementing its methods in ps2.py.
 

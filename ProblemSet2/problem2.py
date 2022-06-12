@@ -1,4 +1,4 @@
-# Problem 2: Robot Class
+# Problem Set 2, Problem 2: Robot Class
 # 
 # In ps2.py we provided you with the Robot class, which stores the position and direction of a robot. For this class, 
 # decide what fields you will use and decide how the following operations are to be performed:

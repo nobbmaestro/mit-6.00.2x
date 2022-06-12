@@ -1,4 +1,4 @@
-# Problem 4: Running the Simulation
+# Problem Set 2, Problem 4: Running the Simulation
 # 
 # In this problem you will write code that runs a complete robot simulation.
 #
