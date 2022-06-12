@@ -1,4 +1,4 @@
-# Problem 5
+# Midterm Exam, Problem 5
 In lecture, we explored the concept of a random walk, using a set of different models of drunks. Below is the code we used for locations and fields and the base class of drunks – you should not have to study this code in detail, since you have seen it in lecture.
 
 ## Code from Lecture

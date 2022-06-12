@@ -1,4 +1,4 @@
-# Problem 4
+# Midterm Exam, Problem 4
 #
 # Write a function that meets the following specification. Hint: there exists a greedy algorithm that provides an optimal 
 # solution to this problem.

@@ -1,4 +1,4 @@
-# Problem 1
+# Midterm Exam, Problem 1
 #
 # Write a function that meets the specification below:
 # def solveit(test):

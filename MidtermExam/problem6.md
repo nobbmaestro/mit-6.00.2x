@@ -1,4 +1,4 @@
-# Problem 6
+# Midterm Exam, Problem 6
 
 ## Problem 6-1
 Graphs are a convenient way to represent the relations between people, objects, concepts, and more.

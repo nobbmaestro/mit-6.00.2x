@@ -1,4 +1,4 @@
-# Problem 2
+# Midterm Exam, Problem 2
 
 ## Problem 2-1
 Which of the following problems can be solved using dynamic programming? Check all that work.

@@ -1,8 +1,10 @@
+# Midterm Exam, Problem 3
+
 import unittest
 
 from MidtermExam import greedySum as func
 
-class TestProblem7(unittest.TestCase):
+class TestProblem3(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {'input': [[], 10],                    'output': 'no solution'},

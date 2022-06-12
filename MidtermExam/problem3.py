@@ -1,4 +1,4 @@
-# Problem 3
+# Midterm Exam, Problem 3
 # 
 # You are given a list of unique positive integers L sorted in descending order and a positive integer sum s. 
 # The list has n elements. Consider writing a program that finds values for multipliers m_0, m_1,...., m_n-1 

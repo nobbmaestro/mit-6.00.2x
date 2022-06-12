@@ -1,8 +1,10 @@
+# Midterm Exam, Problem 4
+
 import unittest
 
 from MidtermExam import solve as func
 
-class TestProblem7(unittest.TestCase):
+class TestProblem4(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {'input': 1,   'output': [0, 0, 0, 1]},
