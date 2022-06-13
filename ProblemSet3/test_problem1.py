@@ -43,12 +43,12 @@ class TestSimpleVirus(unittest.TestCase):
                 if shall_raise:
                     self.assertRaises(NoChildException, test_object.reproduce, arg3)
                     result = test_object.doesClear()
-                    self.assertEquals(result, expected_result, msg.format(i=i, j=j, exp=expected_result, res=result))
+                    self.assertEqual(result, expected_result, msg.format(i=i, j=j, exp=expected_result, res=result))
 
                 else:
                     test_object.reproduce(arg3)
                     result = test_object.doesClear()
-                    self.assertEquals(result, expected_result, msg.format(i=i, j=j, exp=expected_result, res=result))
+                    self.assertEqual(result, expected_result, msg.format(i=i, j=j, exp=expected_result, res=result))
 
 
 class TestPatient(unittest.TestCase):
