@@ -40,4 +40,4 @@ What is the R^2 value? (use 3 decimal places)
 ## Answer
 > 0.005
 
-## [Source Code for the assigment](MIT-6.00.2x-Introduction-to-Computational-Thinking-and-Data-Science/ProblemSet3/problem3.py)
+## [Source Code for the assigment](problem3.py)
