@@ -3,16 +3,16 @@
 ## Introduction
 
 ### Space Cows Introduction
+
 A colony of Aucks (super-intelligent alien bioengineers) has landed on Earth and has created new species of farm animals! The Aucks are performing their experiments on Earth, and plan on transporting the mutant animals back to their home planet of Aurock. In this problem set, you will implement algorithms to figure out how the aliens should shuttle their experimental animals back across space.
 
-### Getting started!
+### Getting started
 
 Download [pset1.zip](https://courses.edx.org/assets/courseware/v1/dbe8e6e4ec134dc25154fe701cf24462/asset-v1:MITx+6.00.2x+1T2021+type@asset+block/pset1.zip) from the website.
 
 Please do not rename the files we provide you with, change any of the provided helper functions, change function/method names, or delete provided docstrings. You will need to keep ps1_partition.py and ps1_cow_data.txt in the same folder as ps1.py.
 
-
-### Transporting Cows Across Space!
+### Transporting Cows Across Space
 
 The aliens have succeeded in breeding cows that jump over the moon! Now they want to take home their mutant cows. The aliens want to take all chosen cows back, but their spaceship has a weight limit and they want to minimize the number of trips they have to take across the universe. Somehow, the aliens have developed breeding technology to make cows with only integer weights.
 
