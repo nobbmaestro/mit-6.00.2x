@@ -1,16 +1,21 @@
-import re, np
+"""Climate Class."""
 
-class Climate(object):
-    """
-    The collection of temperature records loaded from given csv file
-    """
+import re
+
+import np
+
+
+# pylint: disable=W1401, C0103, E1101
+class Climate:
+    """The collection of temperature records loaded from given csv file."""
+
     def __init__(self, filename):
-        """
-        Initialize a Climate instance, which stores the temperature records
-        loaded from a given csv file specified by filename.
+        """Initialize a Climate instance.
+
+        Stores the temperature records loaded from a given csv file specified by filename.
 
         Args:
-            filename: name of the csv file (str)
+            filename (str): name of the csv file
         """
         self.rawdata = {}
 
@@ -19,7 +24,7 @@ class Climate(object):
         for line in f:
             items = line.strip().split(',')
 
-            date = re.match('(\d\d\d\d)(\d\d)(\d\d)', items[header.index('DATE')])
+            date = re.match('(\d\d\d\d)(\d\d)(\d\d)', items[header.index('DATE')])  # noqa: W605
             year = int(date.group(1))
             month = int(date.group(2))
             day = int(date.group(3))
@@ -33,20 +38,18 @@ class Climate(object):
             if month not in self.rawdata[city][year]:
                 self.rawdata[city][year][month] = {}
             self.rawdata[city][year][month][day] = temperature
-            
+
         f.close()
 
     def get_yearly_temp(self, city, year):
-        """
-        Get the daily temperatures for the given year and city.
+        """Get the daily temperatures for the given year and city.
 
         Args:
-            city: city name (str)
-            year: the year to get the data for (int)
+            city (str): city name
+            year (int): the year to get the data for
 
         Returns:
-            a numpy 1-d array of daily temperatures for the specified year and
-            city
+            numpy 1-d array: daily temperatures for the specified year and city
         """
         temperatures = []
         assert city in self.rawdata, "provided city is not available"
@@ -58,19 +61,16 @@ class Climate(object):
         return np.array(temperatures)
 
     def get_daily_temp(self, city, month, day, year):
-        """
-        Get the daily temperature for the given city and time (year + date).
+        """Get the daily temperature for the given city and time (year + date).
 
         Args:
-            city: city name (str)
-            month: the month to get the data for (int, where January = 1,
-                December = 12)
-            day: the day to get the data for (int, where 1st day of month = 1)
-            year: the year to get the data for (int)
+            city (str): city name
+            month (int): the month to get the data for (int, where January = 1, December = 12)
+            day (int): the day to get the data for (int, where 1st day of month = 1)
+            year (int): the year to get the data for
 
         Returns:
-            a float of the daily temperature for the specified time (year +
-            date) and city
+            float: the daily temperature for the specified time (year + date) and city
         """
         assert city in self.rawdata, "provided city is not available"
         assert year in self.rawdata[city], "provided year is not available"

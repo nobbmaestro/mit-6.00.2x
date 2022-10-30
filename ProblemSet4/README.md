@@ -1,5 +1,6 @@
 # Problem Set 4
-In this problem set, you will use regression analysis to model the climate of different areas and try to find evidence of global warming. You will create models to analyze and visualize climate change in terms of temperature. 
+
+In this problem set, you will use regression analysis to model the climate of different areas and try to find evidence of global warming. You will create models to analyze and visualize climate change in terms of temperature.
 
 Download [ps4.zip](https://courses.edx.org/assets/courseware/v1/37eae4034bb37c54c5ddedb7c46aaaa0/asset-v1:MITx+6.00.2x+1T2021+type@asset+block/pset4.zip).
 

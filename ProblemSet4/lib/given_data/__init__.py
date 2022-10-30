@@ -1,1 +1,0 @@
-from .variables import CITIES, INTERVAL_1, INTERVAL_2, FILE_PATH
