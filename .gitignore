@@ -1,3 +1,13 @@
 .vscode
 __pycache__
 .DS_Store
+
+.venv
+.flake8
+.pre-commit-config.yaml
+.pylintrc
+*.log
+.style.yapf
+pyproject.toml
+pytest.ini
+requirements-env.txt
